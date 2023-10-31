@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Usage: ./find_subdomains.sh <domain>
-# Example: ./find_subdomains.sh example.com
+# Usage: ./livehosts.sh <domain>
+# Example: ./livehosts.sh example.com
 
 if [ "$#" -ne 1 ]; then
     echo "Usage: $0 <domain>"
